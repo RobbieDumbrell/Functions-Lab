@@ -32,3 +32,10 @@ def add_string_as_number(string_1, string_2)
 
   string_to_num_1 + string_to_num_2
 end
+
+def number_to_full_month_name(number)
+  case number
+  when 1
+    return "January"
+  end
+end
