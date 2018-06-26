@@ -18,8 +18,8 @@ def divide(x, y)
   return x / y
 end
 
-def length_of_string(sting)
-  sting.length
+def length_of_string(string)
+  return string.length
 end
 
 def join_string(string_1, string_2)
@@ -30,7 +30,7 @@ def add_string_as_number(string_1, string_2)
   string_to_num_1 = string_1.to_i
   string_to_num_2 = string_2.to_i
 
-  string_to_num_1 + string_to_num_2
+  return string_to_num_1 + string_to_num_2
 end
 
 def number_to_full_month_name(number)
