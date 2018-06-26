@@ -92,5 +92,11 @@ def number_to_short_month_name(number)
 end
 
 def volume_of_cube(side)
-  return volume = side ** 3 
+  return volume = side ** 3
+end
+
+def volume_of_sphere(radius)
+  x = 4.0/3.0
+result = x * Math::PI * (radius ** 3)
+return result.round(2)
 end
